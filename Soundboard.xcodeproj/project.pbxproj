@@ -13,6 +13,7 @@
 		7C01E7A21F2D35C100760C67 /* Soundboard.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7C01E7A01F2D35C100760C67 /* Soundboard.xcdatamodeld */; };
 		7C01E7A41F2D35C100760C67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C01E7A31F2D35C100760C67 /* Assets.xcassets */; };
 		7C01E7A71F2D35C100760C67 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C01E7A51F2D35C100760C67 /* LaunchScreen.storyboard */; };
+		7CEABB9F1F2D412B002DF997 /* SoundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CEABB9E1F2D412B002DF997 /* SoundViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		7C01E7A31F2D35C100760C67 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7C01E7A61F2D35C100760C67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7C01E7A81F2D35C100760C67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CEABB9E1F2D412B002DF997 /* SoundViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				7C01E7991F2D35C100760C67 /* AppDelegate.swift */,
 				7C01E79B1F2D35C100760C67 /* ViewController.swift */,
+				7CEABB9E1F2D412B002DF997 /* SoundViewController.swift */,
 				7C01E79D1F2D35C100760C67 /* Main.storyboard */,
 				7C01E7A31F2D35C100760C67 /* Assets.xcassets */,
 				7C01E7A51F2D35C100760C67 /* LaunchScreen.storyboard */,
@@ -99,6 +102,7 @@
 				TargetAttributes = {
 					7C01E7951F2D35C100760C67 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = ZG8V457WU4;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -139,6 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CEABB9F1F2D412B002DF997 /* SoundViewController.swift in Sources */,
 				7C01E79C1F2D35C100760C67 /* ViewController.swift in Sources */,
 				7C01E7A21F2D35C100760C67 /* Soundboard.xcdatamodeld in Sources */,
 				7C01E79A1F2D35C100760C67 /* AppDelegate.swift in Sources */,
@@ -266,6 +271,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZG8V457WU4;
 				INFOPLIST_FILE = Soundboard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.joseph.Soundboard;
@@ -278,6 +284,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZG8V457WU4;
 				INFOPLIST_FILE = Soundboard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.joseph.Soundboard;
@@ -305,6 +312,7 @@
 				7C01E7AD1F2D35C100760C67 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
